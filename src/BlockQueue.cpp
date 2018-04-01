@@ -43,3 +43,7 @@ bool BlockQueue<T>::try_peek(T& t) {
 	t = q_.peek();
 	return true;
 }
+
+template class BlockQueue<int>;
+template class BlockQueue<float>;
+template class BlockQueue<std::string>;
